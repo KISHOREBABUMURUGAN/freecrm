@@ -1,0 +1,1293 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "user logged in with valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21665319100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 836305000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User takes input from excel file",
+            "match": {
+              "location": "Login_Steps.user_takes_input_from_excel_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7241511200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter email and Password",
+            "match": {
+              "location": "Login_Steps.user_enter_email_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11410581100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "succefully creating the contact by entering all the mandatory fields",
+        "description": "",
+        "id": "validate-contact-page-functionality-of-free-crm-application;succefully-creating-the-contact-by-entering-all-the-mandatory-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9311307900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on create new contact page",
+            "match": {
+              "location": "Contacts_steps.user_is_on_create_new_contact_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 46282000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User takes input from excel file for firstname and lastname",
+            "match": {
+              "location": "Contacts_steps.user_takes_input_from_excel_file_for_firstname_and_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7626691000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the mandatory field firstname and lastname",
+            "match": {
+              "location": "Contacts_steps.i_enter_the_mandatory_field_firstname_and_lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6346116200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click the save button",
+            "match": {
+              "location": "Contacts_steps.click_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3289288000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "display the saved page",
+            "match": {
+              "location": "Contacts_steps.display_the_saved_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactpage"
+          },
+          {
+            "name": "@succesfully_creatingcontact_validation"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user logged in with valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16582190300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37852400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User takes input from excel file",
+            "match": {
+              "location": "Login_Steps.user_takes_input_from_excel_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7278308300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter email and Password",
+            "match": {
+              "location": "Login_Steps.user_enter_email_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11314934300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Failure in creating the new contact by leaving the firstname",
+        "description": "",
+        "id": "validate-contact-page-functionality-of-free-crm-application;failure-in-creating-the-new-contact-by-leaving-the-firstname",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9311810100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is on create new contact page",
+            "match": {
+              "location": "Contacts_steps.user_is_on_create_new_contact_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29683400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User takes input from excel file for lastname",
+            "match": {
+              "location": "Contacts_steps.user_takes_input_from_excel_file_for_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3221205100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Failed to enter the mandatory field firstname",
+            "match": {
+              "location": "Contacts_steps.failed_to_enter_the_mandatory_field_firstname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6275496600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click the save button",
+            "match": {
+              "location": "Contacts_steps.click_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4256250200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "display the alert message the firstname is required",
+            "match": {
+              "location": "Contacts_steps.display_the_alert_message_the_firstname_is_required()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactpage"
+          },
+          {
+            "name": "@Invalid_firstname_validation"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user logged in with valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18375257400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47754400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User takes input from excel file",
+            "match": {
+              "location": "Login_Steps.user_takes_input_from_excel_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7190330500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter email and Password",
+            "match": {
+              "location": "Login_Steps.user_enter_email_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11269103100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Failure in creating the new contact by leaving the lastname",
+        "description": "",
+        "id": "validate-contact-page-functionality-of-free-crm-application;failure-in-creating-the-new-contact-by-leaving-the-lastname",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9219208100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user is on create new contact page",
+            "match": {
+              "location": "Contacts_steps.user_is_on_create_new_contact_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22636200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User takes input from excel file for firstname",
+            "match": {
+              "location": "Contacts_steps.user_takes_input_from_excel_file_for_firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4250428600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Failed to enter the mandatory field lastname",
+            "match": {
+              "location": "Contacts_steps.failed_to_enter_the_mandatory_field_lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6240263900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "click the save button",
+            "match": {
+              "location": "Contacts_steps.click_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4251993100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "display the alert message the lastname is required",
+            "match": {
+              "location": "Contacts_steps.display_the_alert_message_the_lastname_is_required()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactpage"
+          },
+          {
+            "name": "@Invalid_lastname_validation"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user logged in with valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16509427100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25649999,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User takes input from excel file",
+            "match": {
+              "location": "Login_Steps.user_takes_input_from_excel_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7178200700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter email and Password",
+            "match": {
+              "location": "Login_Steps.user_enter_email_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11192728900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 36,
+        "name": "Failure in creating the new contact by leaving the firstname and lastname",
+        "description": "",
+        "id": "validate-contact-page-functionality-of-free-crm-application;failure-in-creating-the-new-contact-by-leaving-the-firstname-and-lastname",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9200097400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user is on create new contact page",
+            "match": {
+              "location": "Contacts_steps.user_is_on_create_new_contact_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6219304501,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Failed to enter the mandatory field firstname and lastname",
+            "match": {
+              "location": "Contacts_steps.failed_to_enter_the_mandatory_field_firstname_and_lastname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6242356000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "click the save button",
+            "match": {
+              "location": "Contacts_steps.click_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10293056500,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "display the alert message the firstname and lastname is required",
+            "match": {
+              "location": "Contacts_steps.display_the_alert_message_the_firstname_and_lastname_is_required()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactpage"
+          },
+          {
+            "name": "@Invalid_firstname_lastname_validation"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user logged in with valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15415363300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21270900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User takes input from excel file",
+            "match": {
+              "location": "Login_Steps.user_takes_input_from_excel_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7194737900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter email and Password",
+            "match": {
+              "location": "Login_Steps.user_enter_email_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11258385200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 43,
+        "name": "filling all the fields in the contact page",
+        "description": "",
+        "id": "validate-contact-page-functionality-of-free-crm-application;filling-all-the-fields-in-the-contact-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9265179300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user is on create new contact page",
+            "match": {
+              "location": "Contacts_steps.user_is_on_create_new_contact_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19816000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User takes input from excel file for all fields",
+            "match": {
+              "location": "Contacts_steps.user_takes_input_from_excel_file_for_all_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28281273100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user enter all the fields",
+            "match": {
+              "location": "Contacts_steps.user_enter_all_the_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6242519400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "click the save button",
+            "match": {
+              "location": "Contacts_steps.click_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3231582200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "display the saved page",
+            "match": {
+              "location": "Contacts_steps.display_the_saved_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactpage"
+          },
+          {
+            "name": "@filling_all_the_fields"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "user logged in with valid credentials",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15652507100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17866500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User takes input from excel file",
+            "match": {
+              "location": "Login_Steps.user_takes_input_from_excel_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7173314000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter email and Password",
+            "match": {
+              "location": "Login_Steps.user_enter_email_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11219211700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "leaving  some of the fields in the contact page",
+        "description": "",
+        "id": "validate-contact-page-functionality-of-free-crm-application;leaving--some-of-the-fields-in-the-contact-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9208634000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user is on create new contact page",
+            "match": {
+              "location": "Contacts_steps.user_is_on_create_new_contact_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18033200,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "User takes input from excel file for some fields",
+            "match": {
+              "location": "Contacts_steps.user_takes_input_from_excel_file_for_some_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9856209800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user enter some of the fields",
+            "match": {
+              "location": "Contacts_steps.user_enter_some_of_the_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6268312700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "click the save button",
+            "match": {
+              "location": "Contacts_steps.click_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3259688100,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "display the saved page",
+            "match": {
+              "location": "Contacts_steps.display_the_saved_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contactpage"
+          },
+          {
+            "name": "@leaving_some_of_the_fields"
+          }
+        ]
+      }
+    ],
+    "name": "Validate contact page functionality of free crm application",
+    "description": "",
+    "id": "validate-contact-page-functionality-of-free-crm-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/KIMURUGA/eclipse-workspace/com.free_crm_1/src/test/resources/CRM_features/contactcrm.feature",
+    "tags": [
+      {
+        "name": "@contactpage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to Cogmento CRM home page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 6,
+        "name": "Check the title",
+        "description": "",
+        "id": "free-crm;check-the-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13954000200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2210082300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check the title of the page",
+            "match": {
+              "location": "Login_Steps.check_the_title_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to Cogmento CRM home page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 11,
+        "name": "Login functionality for Free CRM.",
+        "description": "",
+        "id": "free-crm;login-functionality-for-free-crm.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15352866800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22347700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User takes input from excel file",
+            "match": {
+              "location": "Login_Steps.user_takes_input_from_excel_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7180353500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter email and Password",
+            "match": {
+              "location": "Login_Steps.user_enter_email_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11222461600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 218103100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "login should be successful",
+            "match": {
+              "location": "Login_Steps.login_should_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@successful_login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to Cogmento CRM home page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 20,
+        "name": "Failure in Free CRM on leaving the User Name field empty",
+        "description": "",
+        "id": "free-crm;failure-in-free-crm-on-leaving-the-user-name-field-empty",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14405553100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14865900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User takes input from excel file",
+            "match": {
+              "location": "Login_Steps.user_takes_input_from_excel_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4088266800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user leaves email blank",
+            "match": {
+              "location": "Login_Steps.user_leaves_email_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11194984400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2236672800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "display alert msg",
+            "match": {
+              "location": "Login_Steps.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@email_field_validation"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to Cogmento CRM home page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 28,
+        "name": "Failure in Free CRM on leaving the Password field empty",
+        "description": "",
+        "id": "free-crm;failure-in-free-crm-on-leaving-the-password-field-empty",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14269974000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13116200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User takes input from excel file",
+            "match": {
+              "location": "Login_Steps.user_takes_input_from_excel_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5104871100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user leaves password field blank",
+            "match": {
+              "location": "Login_Steps.user_leaves_password_field_blank()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11167576800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2241147600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "display alert msg",
+            "match": {
+              "location": "Login_Steps.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Password_field_validation"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to Cogmento CRM home page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 36,
+        "name": "Failure in Free CRM on entering incorrect Password",
+        "description": "",
+        "id": "free-crm;failure-in-free-crm-on-entering-incorrect-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14004890500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13287600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User takes input from excel file",
+            "match": {
+              "location": "Login_Steps.user_takes_input_from_excel_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7171224700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user enters an incorrect password",
+            "match": {
+              "location": "Login_Steps.user_enters_an_incorrect_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11252633400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2239863700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "display alert msg",
+            "match": {
+              "location": "Login_Steps.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Invalid_Password_validation"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User has already logged in with valid credentials",
+        "description": "and is navigated to Cogmento CRM home page. ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 44,
+        "name": "Failure in Free CRM on leaving username and password fields empty",
+        "description": "",
+        "id": "free-crm;failure-in-free-crm-on-leaving-username-and-password-fields-empty",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15309653800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User is on Free crm login page",
+            "match": {
+              "location": "Login_Steps.user_is_on_Free_crm_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11208547700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "clicks the login button",
+            "match": {
+              "location": "Login_Steps.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2226295300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "display alert msg",
+            "match": {
+              "location": "Login_Steps.display_alert_msg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@blank_credentials_validation"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM",
+    "description": "",
+    "id": "free-crm",
+    "keyword": "Feature",
+    "uri": "C:/Users/KIMURUGA/eclipse-workspace/com.free_crm_1/src/test/resources/CRM_features/logincrm.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
